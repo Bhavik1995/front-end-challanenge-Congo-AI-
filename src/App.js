@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Navbar } from './components';
-import { Header, Footer, Chatbot } from './containers';
+import { Header, Footer } from './containers';
 import './App.css';
 
 const App = () =>{

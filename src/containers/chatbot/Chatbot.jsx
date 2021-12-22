@@ -20,7 +20,7 @@ const Chatbot = () => {
         <div className="gpt3__cta-overlap">
                  <div className="circle">
                 <div className='robot-icon'>
-                    <FaRobot style={{height: "18px", width: "18px"}}/>
+                    <FaRobot className='fa-robot'/>
                 </div>
 
                 </div>

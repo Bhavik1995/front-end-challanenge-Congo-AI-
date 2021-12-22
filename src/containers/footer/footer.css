@@ -220,3 +220,40 @@
         line-height: 38px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .gpt3__footer-chatbox{
+        display: flex;
+        
+    }
+    
+    .gpt3__footer-chatbox .chatbox-top{
+        width: 400px;
+        height: 90vh;
+        position: fixed;
+        bottom: 100px;
+        right: 100px;
+        z-index: 1000; 
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-right: 5rem;
+        transform: scaleY(1);
+    }
+    
+    .gpt3__footer-chatbox .chatbox-top:active{
+        transform: scaleY(1);
+    }
+    
+    .gpt3__footer-chatbox img{
+        position: fixed;
+        bottom: 5px;
+        margin-top: 10px;
+        cursor: pointer;  
+    }
+    
+    .gpt3__footer-chatbox button{
+        border: none;
+    }
+}

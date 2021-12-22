@@ -1,5 +1,4 @@
-import React, {useState} from 'react';
-import {RiMenu3Line, RiCloseLine} from 'react-icons/ri';
+import React from 'react';
 import './navbar.css';
 import logo from '../../assets/logo.svg';
 
@@ -17,8 +16,6 @@ import logo from '../../assets/logo.svg';
 // }
 
 const Navbar = () => {
-
-    const[toggleMenu, setToggleMenu] = useState(false)
 
     return (
         <div className="gpt3__navbar">
