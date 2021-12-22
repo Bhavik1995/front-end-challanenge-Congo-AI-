@@ -1,0 +1,1002 @@
+.gpt3__cta{
+    display: grid;
+    grid-template-rows: 50%,50%;
+     background-color: white !important;
+    width: 380px;
+    height: 100%;
+    border-radius: 8px;
+    margin-top: 25px;
+    -webkit-animation: fadeinLoad 2.0s 0.5s forwards;
+    animation: fadeinLoad 2.0s 0.5s forwards;
+     opacity: 0;
+} 
+
+.gpt3__cta-content {
+    background: var(--gradient-orange);
+    position: absolute;
+    width: 380px;
+    height: 278px;
+    left: 0px;
+    top: -1px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+    -webkit-animation: fadeinLoad 2.0s 1.5s forwards;
+    animation: fadeinLoad 2.0s 1.5s forwards;
+     opacity: 0;
+}
+
+.gpt3__cta-content h2{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding-left: 30px;
+    margin-top: 10px;
+    -webkit-animation: fadeinLoad 2.0s 2.5s forwards;
+    animation: fadeinLoad 2.0s 2.5s forwards;
+     opacity: 0;
+}
+
+.gpt3__cta-content h3{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding-left: 30px;
+    margin-top: 10px;
+    -webkit-animation: fadeinLoad 2.0s 3.0s forwards;
+    animation: fadeinLoad 2.0s 3.0s forwards;
+     opacity: 0;
+}
+
+.gpt3__cta-content p{
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: 500;
+    
+    color: #FFFFFF;
+    padding-left: 30px;
+    margin-top: 10px;
+    -webkit-animation: fadeinLoad 2.0s 3.5s forwards;
+    animation: fadeinLoad 2.0s 3.5s forwards;
+     opacity: 0;
+}
+.gpt3__cta-second-content{
+    /* background-color: white !important;
+    position: absolute;
+    left: 0px;
+    top: 275px;
+    width: 380px;
+    height: 325px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px; */
+
+    width: 400px;
+	height: 90vh;
+	position: fixed;
+	bottom: 10px;
+    right: 10px;
+    z-index: 1000; 
+
+    flex: 2;
+     display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 5rem;
+    transform: scaleY(1); 
+
+}
+.gpt3__cta-overlap{
+    background: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    position: absolute;
+    width: 360px;
+    height: 380px;
+    left: 10px;
+    right: 10px;
+    top: 160px;
+    padding: 20px;
+    line-height: 2rem;
+    -webkit-animation: fadeinLoad 2.0s 4.0s forwards;
+    animation: fadeinLoad 2.0s 4.0s forwards;
+     opacity: 0;
+}
+
+
+.gpt3__cta-overlap p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    padding-top: 5px;
+    -webkit-animation: fadeinLoad 2.0s 4.0s forwards;
+    animation: fadeinLoad 2.0s 4.0s forwards;
+     opacity: 0;
+}
+
+
+.info-div-1{
+    background: #FFFFFF;
+    border: 1px solid #E1E1E1;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    margin: 10px 5px;
+    -webkit-animation: fadeinLoad 2.0s 6.0s forwards;
+    animation: fadeinLoad 2.0s 6.0s forwards;
+     opacity: 0;
+}
+
+.info-div-1 .info-circle-outer-1{
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background-color: #F7B731;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 7px;
+    -webkit-animation: fadeinLoad 2.0s 6.0s forwards;
+    animation: fadeinLoad 2.0s 6.0s forwards;
+     opacity: 0;
+}
+
+.info-div-1 .info-circle-outer-1 .info-circle-inner-1{
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background: var(--gradient-orange);
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 2.5px;
+    -webkit-animation: fadeinLoad 2.0s 6.0s forwards;
+    animation: fadeinLoad 2.0s 6.0s forwards;
+     opacity: 0;
+}
+
+.info-div-1 h6{
+    padding: 10px;
+    font-family: var(--font-family);
+    margin-left: 25px;
+    -webkit-animation: fadeinLoad 2.0s 6.0s forwards;
+    animation: fadeinLoad 2.0s 6.0s forwards;
+     opacity: 0;
+}
+
+.info-div-2{
+    background: #FFFFFF;
+    border: 1px solid #E1E1E1;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    margin: 10px 5px;
+    -webkit-animation: fadeinLoad 2.0s 7.0s forwards;
+    animation: fadeinLoad 2.0s 7.0s forwards;
+     opacity: 0;
+}
+
+.info-div-2 .info-circle-outer-2{
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background-color: #F7B731;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 7px;
+    -webkit-animation: fadeinLoad 2.0s 7.0s forwards;
+    animation: fadeinLoad 2.0s 7.0s forwards;
+     opacity: 0;
+}
+
+.info-div-2 .info-circle-outer-2 .info-circle-inner-2{
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background: var(--gradient-orange);
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 2.5px;
+    -webkit-animation: fadeinLoad 2.0s 7.0s forwards;
+    animation: fadeinLoad 2.0s 7.0s forwards;
+     opacity: 0;
+}
+
+.info-div-2 h6{
+    padding: 10px;
+    font-family: var(--font-family);
+    margin-left: 25px;
+    -webkit-animation: fadeinLoad 2.0s 7.0s forwards;
+    animation: fadeinLoad 2.0s 7.0s forwards;
+     opacity: 0;
+}
+
+.info-div-3{
+    background: #FFFFFF;
+    border: 1px solid #E1E1E1;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    margin: 10px 5px;
+    -webkit-animation: fadeinLoad 2.0s 8.0s forwards;
+    animation: fadeinLoad 2.0s 8.0s forwards;
+     opacity: 0;
+}
+
+.info-div-3 .info-circle-outer-3{
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background-color: #F7B731;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 7px;
+    -webkit-animation: fadeinLoad 2.0s 8.0s forwards;
+    animation: fadeinLoad 2.0s 8.0s forwards;
+     opacity: 0;
+}
+
+.info-div-3 .info-circle-outer-3 .info-circle-inner-3{
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background: var(--gradient-orange);
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 2.5px;
+    -webkit-animation: fadeinLoad 2.0s 8.0s forwards;
+    animation: fadeinLoad 2.0s 8.0s forwards;
+     opacity: 0;
+}
+
+.info-div-3 h6{
+    padding: 10px;
+    font-family: var(--font-family);
+    margin-left: 25px;
+    -webkit-animation: fadeinLoad 2.0s 8.0s forwards;
+    animation: fadeinLoad 2.0s 8.0s forwards;
+     opacity: 0;
+}
+
+.info-div-4{
+    background: #FFFFFF;
+    border: 1px solid #E1E1E1;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    margin: 10px 5px;
+    -webkit-animation: fadeinLoad 2.0s 9.0s forwards;
+    animation: fadeinLoad 2.0s 9.0s forwards;
+     opacity: 0;
+}
+
+.info-div-4 .info-circle-outer-4{
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background-color: #F7B731;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 7px;
+    -webkit-animation: fadeinLoad 2.0s 9.0s forwards;
+    animation: fadeinLoad 2.0s 9.0s forwards;
+     opacity: 0;
+}
+
+.info-div-4 .info-circle-outer-4 .info-circle-inner-4{
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background: var(--gradient-orange);
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 2.5px;
+    -webkit-animation: fadeinLoad 2.0s 9.0s forwards;
+    animation: fadeinLoad 2.0s 9.0s forwards;
+     opacity: 0;
+}
+
+.info-div-4 h6{
+    padding: 10px;
+    font-family: var(--font-family);
+    margin-left: 25px;
+    -webkit-animation: fadeinLoad 2.0s 9.0s forwards;
+    animation: fadeinLoad 2.0s 9.0s forwards;
+     opacity: 0;
+}
+
+.gpt3__cta-overlap button{
+    background: #FFFFFF;
+    border: 1px solid #D1D1D1;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 35px;
+    padding: 8px;
+    min-width: 250px;
+    -webkit-animation: fadeinLoad 2.0s 10.0s forwards;
+    animation: fadeinLoad 2.0s 10.0s forwards;
+     opacity: 0;
+  
+}
+
+.gpt3__cta-overlap button .chat-icon {
+    color: white;
+    height: 15px;
+    width: 15px;
+    margin: 8px;
+    -webkit-animation: fadeinLoad 2.0s 10.0s forwards;
+    animation: fadeinLoad 2.0s 10.0s forwards;
+     opacity: 0;
+ }
+
+.gpt3__cta-overlap button p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 13px;
+    color: #2d2d2d;
+    -webkit-animation: fadeinLoad 2.0s 10.0s forwards;
+    animation: fadeinLoad 2.0s 10.0s forwards;
+     opacity: 0;
+}
+
+.gpt3__cta-overlap .circle{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: var(--gradient-orange) !important;
+    position: fixed;
+    top: 130px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    -webkit-animation: fadeinLoad 2.0s 5.0s forwards;
+    animation: fadeinLoad 2.0s 5.0s forwards;
+     opacity: 0;
+}
+
+.gpt3__cta-overlap .circle .robot-icon {
+   color: white;
+   height: 30px;
+   width: 30px;
+   margin: 14px;
+   -webkit-animation: fadeinLoad 2.0s 5.0s forwards;
+   animation: fadeinLoad 2.0s 5.0s forwards;
+    opacity: 0;
+}
+
+
+.gpt3__cta-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.gpt3__cta-btn button{
+    border-radius: 40px;
+    background: #000000;
+
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    min-width: 150px;
+}
+
+
+
+@media screen and (max-width: 650px) {
+    .gpt3__cta {
+   
+        width: 250px;
+        height: 100%;
+        position: fixed;
+        top: 40px;
+        right: 60px;
+        z-index: 1000; 
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-right: 5rem;
+        transform: scaleY(1); 
+      
+    }
+
+    .gpt3__cta-content {
+        /* padding: 2rem; */
+        background: var(--gradient-orange);
+        width: 250px;
+        height: 200px;
+        /* animation: fadeInAnimation ease 10s; */
+        position: absolute;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+
+    .gpt3__cta-second-content{
+        width: 400px;
+        height: 90vh;
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        z-index: 1000; 
+    
+        flex: 2;
+         display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-right: 5rem;
+        transform: scaleY(1); 
+    
+    }
+
+    .gpt3__cta-overlap{
+        background: #FFFFFF;
+        border: 1px solid #E4E4E4;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+        border-radius: 8px;
+       
+        width: 230px;
+        height: 290px;
+        left: 10px;
+        right: 1px;
+        top: 120px;
+        padding: 5px;
+        line-height: 0.5rem;
+        /* animation: fadeInAnimation ease 25s; */
+    }
+
+   
+    .gpt3__cta-content h2{
+        font-family: var(--font-family);
+        font-weight: 800;
+        font-size: 12px;
+        color: #FFFFFF;
+        padding-left: 20px;
+        margin-top: 10px;
+        /* animation: fadeInAnimation ease 15s; */
+    } 
+    
+    .gpt3__cta-content h3{
+        font-family: var(--font-family);
+        font-weight: 800;
+        font-size: 12px;
+        color: #FFFFFF;
+        padding-left: 20px;
+        margin-top: 5px;
+        /* animation: fadeInAnimation ease 15s; */
+    } 
+    
+    .gpt3__cta-content p{
+        font-family: var(--font-family);
+        font-size: 11px;
+        font-weight: 600;
+        color: #FFFFFF;
+        padding-left: 20px;
+        margin-top: 7px; 
+        /* animation: fadeInAnimation ease 15s; */
+     } 
+
+     .gpt3__cta-overlap p{
+        font-family: var(--font-family);
+        font-weight: 800;
+        font-size: 10px;
+        padding: 8px;
+        margin-top: 13px;
+    }
+    
+    .info-div{
+        background: #FFFFFF;
+        border: 1px solid #E1E1E1;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+        border-radius: 8px;
+        margin: 10px 3px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 0.7rem;
+
+    }
+
+    .info-div .info-circle-outer{
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+        background-color: #F7B731;
+        position: absolute;
+        margin-top: 1px;
+        margin-left: 7px;
+    }
+    
+    .info-div .info-circle-outer .info-circle-inner{
+        height: 4px;
+        width: 4px;
+        border-radius: 50%;
+        background: var(--gradient-orange);
+        position: absolute;
+        margin-top: 3px;
+        margin-left: 2.5px;
+    }    
+    
+    .info-div h6{
+        padding: 10px;
+        font-family: var(--font-family);
+        margin-left: 20px;
+        font-size: 9px;
+        text-align: justify;
+        font-weight: 800;
+           
+    }
+    
+    .gpt3__cta-overlap button{
+        background: #FFFFFF;
+        border: 1px solid #D1D1D1;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 100px;
+        margin: 5px 10px;
+        line-height: 0.1rem;
+        min-width: 60px;
+        padding-top: 2px;
+    }
+    
+    .gpt3__cta-overlap button p{
+        font-family: var(--font-family);
+        font-weight: 800;
+        font-size: 10px;
+        color: #2d2d2d;
+        
+    }
+
+    .gpt3__cta-overlap button .chat-icon {
+        color: white;
+        height: 15px;
+        width: 15px;
+        margin: 8px;
+     }
+
+    .gpt3__cta-overlap .circle{
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+        background: var(--gradient-orange) !important;
+        position: fixed;
+        top: 100px;
+        left: 25px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    }
+
+    .gpt3__cta-overlap .circle .robot-icon {
+        color: white;
+        height: 18px;
+        width: 18px;
+        margin: 13px;
+        
+     }
+     
+}
+
+@media screen and (max-width: 550px) {
+
+    .gpt3__cta {
+        width: 250px;
+        height: 100%;
+        position: fixed;
+        top: 40px;
+        right: 150px;
+        z-index: 1000; 
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-right: 5rem;
+        transform: scaleY(1); 
+      
+    }
+
+    .gpt3__cta-content {
+        /* padding: 2rem; */
+        background: var(--gradient-orange);
+        width: 250px;
+        height: 200px;
+        /* animation: fadeInAnimation ease 10s; */
+        position: absolute;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+
+    .gpt3__cta-second-content{
+        width: 400px;
+        height: 90vh;
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        z-index: 1000; 
+    
+        flex: 2;
+         display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-right: 5rem;
+        transform: scaleY(1); 
+    
+    }
+
+    .gpt3__cta-overlap{
+        background: #FFFFFF;
+        border: 1px solid #E4E4E4;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+        border-radius: 8px;
+       
+        width: 230px;
+        height: 290px;
+        left: 10px;
+        right: 1px;
+        top: 120px;
+        padding: 5px;
+        line-height: 0.5rem;
+        /* animation: fadeInAnimation ease 25s; */
+    }
+
+   
+    .gpt3__cta-content h2{
+        font-family: var(--font-family);
+        font-weight: 800;
+        font-size: 13px;
+        color: #FFFFFF;
+        padding-left: 20px;
+        margin-top: 5px;
+        /* animation: fadeInAnimation ease 15s; */
+    } 
+    
+    .gpt3__cta-content h3{
+        font-family: var(--font-family);
+        font-weight: 800;
+        font-size: 15px !important;
+        color: #FFFFFF;
+        padding-left: 20px;
+        margin-top: 3px;
+        /* animation: fadeInAnimation ease 15s; */
+    } 
+    
+    .gpt3__cta-content p{
+        font-family: var(--font-family);
+        font-size: 11px;
+        font-weight: 600;
+        color: #FFFFFF;
+        padding-left: 20px;
+        margin-top: 5px; 
+        /* animation: fadeInAnimation ease 15s; */
+     } 
+
+     .gpt3__cta-overlap p{
+        font-family: var(--font-family);
+        font-weight: 800;
+        font-size: 10px;
+        padding: 8px;
+        margin-top: 13px;
+    }
+    
+    .info-div{
+        background: #FFFFFF;
+        border: 1px solid #E1E1E1;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+        border-radius: 8px;
+        margin: 10px 3px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 0.7rem;
+
+    }
+
+    .info-div .info-circle-outer{
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+        background-color: #F7B731;
+        position: absolute;
+        margin-top: 1px;
+        margin-left: 7px;
+    }
+    
+    .info-div .info-circle-outer .info-circle-inner{
+        height: 4px;
+        width: 4px;
+        border-radius: 50%;
+        background: var(--gradient-orange);
+        position: absolute;
+        margin-top: 3px;
+        margin-left: 2.5px;
+    }    
+    
+    .info-div h6{
+        padding: 10px;
+        font-family: var(--font-family);
+        margin-left: 20px;
+        font-size: 9px;
+        text-align: justify;
+        font-weight: 800;
+           
+    }
+    
+    .gpt3__cta-overlap button{
+        background: #FFFFFF;
+        border: 1px solid #D1D1D1;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 100px;
+        margin: 5px 10px;
+        line-height: 0.1rem;
+        min-width: 60px;
+        padding-top: 2px;
+    }
+    
+    .gpt3__cta-overlap button p{
+        font-family: var(--font-family);
+        font-weight: 800;
+        font-size: 10px;
+        color: #2d2d2d;
+        
+    }
+
+    .gpt3__cta-overlap button .chat-icon {
+        color: white;
+        height: 15px;
+        width: 15px;
+        margin: 8px;
+     }
+
+    .gpt3__cta-overlap .circle{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background: var(--gradient-orange) !important;
+        position: fixed;
+        top: 100px;
+        left: 25px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    }
+
+    .gpt3__cta-overlap .circle .robot-icon {
+        color: white;
+        height: 18px;
+        width: 18px;
+        margin: 10px;
+        
+     }
+
+
+    .gpt3__cta-content h3 {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .gpt3__cta-btn button {
+        font-size: 14px;
+        line-height: 28px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .gpt3__cta {
+        width: 250px;
+        height: 100%;
+        position: fixed;
+        top: 40px;
+        right: 300px;
+        z-index: 1000; 
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-right: 5rem;
+        transform: scaleY(1); 
+      
+    }
+
+    .gpt3__cta-content {
+        /* padding: 2rem; */
+        background: var(--gradient-orange);
+        width: 250px;
+        height: 200px;
+        /* animation: fadeInAnimation ease 10s; */
+        position: absolute;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+
+    .gpt3__cta-second-content{
+        width: 400px;
+        height: 90vh;
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        z-index: 1000; 
+    
+        flex: 2;
+         display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-right: 5rem;
+        transform: scaleY(1); 
+    
+    }
+
+    .gpt3__cta-overlap{
+        background: #FFFFFF;
+        border: 1px solid #E4E4E4;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+        border-radius: 8px;
+       
+        width: 230px;
+        height: 290px;
+        left: 10px;
+        right: 1px;
+        top: 120px;
+        padding: 5px;
+        line-height: 0.5rem;
+        /* animation: fadeInAnimation ease 25s; */
+    }
+
+   
+    .gpt3__cta-content h2{
+        font-family: var(--font-family);
+        font-weight: 800;
+        font-size: 13px;
+        color: #FFFFFF;
+        padding-left: 20px;
+        margin-top: 5px;
+        /* animation: fadeInAnimation ease 15s; */
+    } 
+    
+    .gpt3__cta-content h3{
+        font-family: var(--font-family);
+        font-weight: 800;
+        font-size: 15px !important;
+        color: #FFFFFF;
+        padding-left: 20px;
+        margin-top: 3px;
+        /* animation: fadeInAnimation ease 15s; */
+    } 
+    
+    .gpt3__cta-content p{
+        font-family: var(--font-family);
+        font-size: 11px;
+        font-weight: 600;
+        color: #FFFFFF;
+        padding-left: 20px;
+        margin-top: 5px; 
+        /* animation: fadeInAnimation ease 15s; */
+     } 
+
+     .gpt3__cta-overlap p{
+        font-family: var(--font-family);
+        font-weight: 800;
+        font-size: 10px;
+        padding: 8px;
+        margin-top: 13px;
+    }
+    
+    .info-div{
+        background: #FFFFFF;
+        border: 1px solid #E1E1E1;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+        border-radius: 8px;
+        margin: 10px 3px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 0.7rem;
+
+    }
+
+    .info-div .info-circle-outer{
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+        background-color: #F7B731;
+        position: absolute;
+        margin-top: 1px;
+        margin-left: 7px;
+    }
+    
+    .info-div .info-circle-outer .info-circle-inner{
+        height: 4px;
+        width: 4px;
+        border-radius: 50%;
+        background: var(--gradient-orange);
+        position: absolute;
+        margin-top: 3px;
+        margin-left: 2.5px;
+    }    
+    
+    .info-div h6{
+        padding: 10px;
+        font-family: var(--font-family);
+        margin-left: 20px;
+        font-size: 9px;
+        text-align: justify;
+        font-weight: 800;
+           
+    }
+    
+    .gpt3__cta-overlap button{
+        background: #FFFFFF;
+        border: 1px solid #D1D1D1;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 100px;
+        margin: 5px 10px;
+        line-height: 0.1rem;
+        min-width: 60px;
+        padding-top: 2px;
+    }
+    
+    .gpt3__cta-overlap button p{
+        font-family: var(--font-family);
+        font-weight: 800;
+        font-size: 10px;
+        color: #2d2d2d;
+        
+    }
+
+    .gpt3__cta-overlap button .chat-icon {
+        color: white;
+        height: 15px;
+        width: 15px;
+        margin: 8px;
+     }
+
+    .gpt3__cta-overlap .circle{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background: var(--gradient-orange) !important;
+        position: fixed;
+        top: 100px;
+        left: 25px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    }
+
+    .gpt3__cta-overlap .circle .robot-icon {
+        color: white;
+        height: 18px;
+        width: 18px;
+        margin: 10px;
+        
+     }
+
+
+    .gpt3__cta-content h3 {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .gpt3__cta-btn button {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+}
