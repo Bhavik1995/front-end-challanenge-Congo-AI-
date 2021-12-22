@@ -229,9 +229,9 @@
     
     .gpt3__footer-chatbox .chatbox-top{
         width: 400px;
-        height: 90vh;
+        height: 100%;
         position: fixed;
-        bottom: 100px;
+        
         right: 100px;
         z-index: 1000; 
         display: flex;
@@ -249,7 +249,7 @@
     .gpt3__footer-chatbox img{
         position: fixed;
         bottom: 5px;
-        margin-top: 10px;
+        margin-top: 5px;
         cursor: pointer;  
     }
     

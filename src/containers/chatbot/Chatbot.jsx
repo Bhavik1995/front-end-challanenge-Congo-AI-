@@ -14,8 +14,8 @@ const Chatbot = () => {
             <p>I am Iris, a Virtual Assistant <br/> How may I help you</p>
         </div>
 
-        <div className="gpt3__cta-second-content">
-        </div>
+        {/* <div className="gpt3__cta-second-content">
+        </div> */}
 
         <div className="gpt3__cta-overlap">
                  <div className="circle">
